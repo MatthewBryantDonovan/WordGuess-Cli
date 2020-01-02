@@ -2,7 +2,8 @@ var Letter = function (letter) {
     this.letter = letter;
     this.solved = false;
     this.display = function (){
-        if (this.solved == true) {
+        // || this.solved.toLowerCase().search(/[a-z]/) === 0
+        if (this.solved == true || this.letter.toLowerCase().search(/[a-z]/) != 0) {
             return this.letter;
         } else {
             return "_";
