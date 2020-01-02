@@ -13,7 +13,7 @@ This is what a game might look like when a user is trying to guess a word.
 
 2. Wrong Input  -
 
-![Wrong Input Picture](./images/wongInput.PNG)
+![Wrong Input Picture](./images/wrongInput.PNG)
 
 Incase the user types in an invalid character, or too many letters at once, the user is informed to have a valid input.
 
